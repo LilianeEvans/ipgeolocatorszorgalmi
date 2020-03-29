@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory;
  */
 
 public class GeoLocator {
-    final Logger logger = LoggerFactory.getLogger(GeoLocator.class);
+    private static Logger logger = LoggerFactory.getLogger(GeoLocator.class);
     /**
      * URI of the geolocation service.
      */
@@ -68,7 +68,7 @@ public class GeoLocator {
     }
 
     public static void main(String[] args) throws IOException {
-        final Logger logger = LoggerFactory.getLogger(Main.class);
+        //Logger logger = LoggerFactory.getLogger(GeoLocator.class);
 
 
         try {
